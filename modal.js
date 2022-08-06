@@ -186,8 +186,8 @@ function testCondition() {
 }
 
 
-function validation() {
-
+function validation(event) {
+    event.preventDefault();
     let sum = 0;
 
     testFirst();
